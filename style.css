@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    bottom: 70px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.list {
+    float: left;
+    color: #000;
+    font-family: Gemunu Libre;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.title1 {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    bottom: 70px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.title {
+    float: left;
+    color: #000;
+    font-family: Gemunu Libre;
+    font-size: 40px;
+    text-decoration: overline;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.title:hover {
+    float: left;
+    color: #000;
+    font-family: Gemunu Libre;
+    font-size: 50px;
+    text-decoration: overline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.list:hover {
+    background-image: linear-gradient(to left bottom, #259cfb, #128aef, #0379e2, #0267d5, #0c55c6);
+    color: #fff;
+    text-decoration: overline;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0 0 5px #000,
+        0 0 10px #ccc,
+        0 0 15px #ccc,
+        0 0 20px #ccc,
+        0 0 25px #ccc,
+        0 0 30px #ccc;
+}
+
+
+.para {
+    text-shadow: 1px 1px #000;
+    font-size: 40px;
+}
+
+.image,
+.img-css,
+.imagejs {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 2px solid #000;
+    z-index: 10;
+    box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #fff,
+        0 0 25px #fff,
+        0 0 30px #fff,
+        0 0 35px #fff,
+        0 0 40px #fff,
+        0 0 45px #fff,
+        0 0 50px #fff;
+    transition: 0.2s;
+}
+
+.copy {
+    color: #00b7ff;
+
+}
+
+.image {
+    width: 20%;
+    height: 20%;
+}
+
+.welimg {
+    border-radius: 50%;
+    /*margin-bottom: 50px;*/
+    text-align: center;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 2px solid #000;
+    z-index: 10;
+    box-shadow: 0 0 5px #ccc,
+        0 0 10px #ccc,
+        0 0 15px #ccc,
+        0 0 20px #ccc,
+        0 0 25px #ccc,
+        0 0 30px #ccc,
+        0 0 35px #ccc,
+        0 0 40px #ccc,
+        0 0 45px #ccc,
+        0 0 50px #ccc;
+    transition: 0.2s;
+    margin-left: 0px;
+}
+
+.abhinav {
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+
+}
+
+.image:hover,
+.img-css:hover,
+.imagejs:hover {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 4px solid #000;
+    box-shadow: 0 0 5px #000;
+    transition: ease-in 0.2s;
+    width: 21%;
+    height: 21%;
+}
+
+.welimg:hover {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 4px solid #000;
+    z-index: 10;
+    box-shadow: 0 0 10px #ccc,
+        0 0 20px #ccc,
+        0 0 30px #ccc,
+        0 0 40px #ccc,
+        0 0 50px #ccc,
+        0 0 60px #ccc,
+        0 0 70px #ccc,
+        0 0 80px #ccc,
+        0 0 90px #ccc,
+        0 0 100px #ccc;
+    transition: 0.2;
+}
+
+.line1 {
+    height: 8px;
+    background-color: #fff;
+    width: 130px;
+    margin: 8px auto;
+}
+
+.line2 {
+    height: 6px;
+    background-color: #000;
+    width: 100px;
+    margin: 8px auto;
+    margin-top: 5%;
+}
+
+#welcome {
+    height: 800px;
+    color: #fff;
+    opacity: 0.8;
+    background-image: linear-gradient(to right top, #008eff, #0085fb, #007bf6, #0271f1, #1267eb);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: Gemunu Libre;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px #000;
+}
+
+
+.wel {
+    font-family: Gemunu Libre;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px #ccc;
+}
+
+.name {
+    font-family: fantasy;
+}
+
+h2,
+h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.welcome1 {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#bio {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    padding: 0px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 42px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    background-image: #fff;
+    width: 100%;
+    height: 50%;
+}
+
+.line {
+    height: 6px;
+    background-color: #fff;
+    width: 70px;
+    margin: 8px auto;
+    box-shadow: 5px 5px #000;
+}
+
+p {
+    font-family: Gemunu Libre;
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+#hello {
+    margin-top: 90px;
+    z-index: 11;
+}
+
+#Channel {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    padding: 0px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 42px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    background-image: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.phy1 {
+    height: 20px;
+}
+
+.msg {
+    font-size: 18px;
+}
+
+.up {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 50px;
+    background-image: linear-gradient(to right top, #259cfb, #128aef, #0379e2, #0267d5, #0c55c6);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #fff,
+        0 0 25px #fff,
+        0 0 30px #fff;
+    transition: 0.2s;
+}
+
+.up:hover {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 60px;
+    background-image: linear-gradient(to right top, #259cfb, #128aef, #0379e2, #0267d5, #0c55c6);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.vid {
+    color: #000;
+    text-shadow: 5px 5px #ccc;
+    font-family: Gemunu Libre;
+}
+
+.par {
+    font-size: 20px;
+    cursor: copy;
+    max-width: 600px;
+}
+
+iframe {
+    border-radius: 15px;
+    box-shadow: 0 0 20px #000;
+    transition: 0.4s;
+}
+
+.hov:hover {
+    border-radius: 20px;
+    box-shadow: 0 0 25px #000;
+    transition: 0.4s;
+    width: 800px;
+    height: 450px;
+}
+
+#website {
+    background-image: linear-gradient(to left bottom, #ffffff, #f7f7f7, #efefef, #e8e8e8, #e0e0e0);
+}
+
+.Go {
+    color: white;
+    background-color: #008EFF;
+    border: none;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Gemunu Libre;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    transition: 0.3s;
+}
+
+.Go:hover {
+    color: white;
+    background-color: #008EFF;
+    border: none;
+    width: 350px;
+    height: 35px;
+    font-size: 20px;
+    font-family: Gemunu Libre;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.next {
+    text-shadow: #fff;
+    background: #008EFF;
+    border: none;
+    width: 450px;
+    height: 45px;
+    font-size: 40px;
+    font-family: Gemunu Libre;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    transition: 0.3s;
+}
+
+.next:hover {
+    box-shadow: 0 0 25px #000;
+    cursor: pointer;
+}
+
+/* Page 2 */
+
+#passion {
+    background-image: linear-gradient(to right top, #ffe900, #ffd500, #ffc100, #fbad00, #f69a0d);
+}
+
+.Op {
+    color: #fff;
+    font-family: Gemunu Libre;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px #000;
+}
+
+#Python {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    
+}
+#Javascript{
+    background-color: gold;
+    padding: 40px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+#Css{
+    background-color: #fff; 
+    padding: 40px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+#Html{
+    background-color: #fff; 
+    padding: 40px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.menu {
+    padding-bottom: 40px;
+}
+#Not{
+    color: #fff;
+    font-size: 37px;
+    Text-shadow: 2px 2px #000;
+}
+#upp {
+    background-image: linear-gradient(to right top, #ffe900, #ffd500, #ffc100, #fbad00, #f69a0d);
+}
+#list:hover {
+    background-image: linear-gradient(to right top, #ffe900, #ffd500, #ffc100, #fbad00, #f69a0d);
+}
+.Screen{
+    border-radius: 15px;
+    box-shadow: 0 0 20px #000;
+    transition: 0.4s;
+}
